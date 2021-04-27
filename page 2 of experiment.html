@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: slategrey;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 5px;
+            /* background-color: #2196F3;   */
+        }
+
+        .grid-container>div {
+            /* background-color: rgba(255, 255, 255, 0.8); */
+            text-align: center;
+            /* padding-top: 10px; */
+            font-size: 30px;
+        }
+
+        h1 {
+            color: #000080;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            font-size: 35px;
+            -webkit-text-stroke: 1.5px snow;
+        }
+
+        h2 {
+            color: #000080;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 33px;
+            -webkit-text-stroke: 1.5px snow;
+        }
+
+        a:link {
+            text-decoration: none;
+            list-style-type: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 20px;
+            background-image: none;
+            -webkit-text-stroke: 1.5px snow;
+        }
+
+        /* a:hover {
+            box-shadow: 10px 10px 10px 10px;
+            background-color: slategrey;
+        } */
+
+        a:visited {
+            color: #000080;
+            -webkit-text-stroke: 1.5px snow;
+        }
+
+        img {
+            width: 125px;
+            height: auto;
+        }
+
+        figcaption {
+            padding: 10px;
+            font-size: 28px;
+            color: #000080;
+            -webkit-text-stroke: 1px snow;
+        }
+
+        ul {
+            color: #000080;
+            -webkit-text-stroke: 1px snow;
+            font-size: 25px;
+            list-style: none;
+        }
+
+        /* .legend {
+            /* padding-top: 17px; */
+        /* transform: scale(1.25); */
+        /* } */
+
+        /* .grisham {
+            width: 100px;
+            height: 100px;
+            min-width: min-content;
+            min-height: min-content;
+        } */
+        li {
+            display: inline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Favorite Authors</h1>
+    <h2>Authors</h2>
+    <ul>
+        <li><a class="active" href="./new.html">1</a></li>
+        <li><a class="active" href="#">2</a></li>
+    </ul>
+    <div class="grid-container">
+        <div>
+            <figure>
+                <a href="https://www.google.com/search?safe=strict&hl=en&biw=1280&bih=610&q=Douglas+Adams&stick=H4sIAAAAAAAAAONgFuLQz9U3MC80SlECs4wsjCq05LOTrfST8vOz9XMyS1KLEosq44tTizJTi60SS0sy8oseMRZwC7z8cU9YKn3SmpPXGBO5COkQsuJic80rySypFJLi4pGCW6rBIMXFBecZiXDx6qfrGxpmFRQZVuUU5wrs6pnNaMWkwciziJXXJb80PSexWMExJTG3GADfNmVKugAAAA&sa=X&ved=2ahUKEwj31MDShZLwAhXJnuAKHbAdBRwQri4wMnoECAEQNg"
+                    target="_blank"><img src="./douglas adams.jpg" alt="Douglas Adams"></a>
+                <figcaption><a
+                        href="https://www.google.com/search?q=the+hitchhiker%27s+guide+to+the+galaxy&safe=strict&bih=610&biw=1280&hl=en&ei=BoiBYKTpMOSk_QbjhqnYAw&gs_ssp=eJzj4tDP1TcwLzRKMWD0UinJSFXIyCxJzsjIzE4tUi9WSC_NTElVKMlXAMmkJ-YkVlQCAHT6EEE&oq=the&gs_lcp=Cgdnd3Mtd2l6EAEYADIHCC4QQxCTAjIECC4QQzIECC4QQzIECAAQQzIECC4QQzIFCAAQiwMyCAgAELEDEIsDMgUILhCLAzIFCC4QiwMyCwguELEDEIMBEIsDOgcIABBDEIsDOg0ILhBDEIsDEKgDEJwDOgcILhBDEIsDSgUIOBIBMVCgEFiOFGCtKWgAcAB4AYAB6QaIAZULkgEJMC4yLjEuNi0xmAEAoAEBqgEHZ3dzLXdpergBA8ABAQ&sclient=gws-wiz"
+                        target="_blank">Douglas Adams</a></figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <a href="https://www.google.com/search?q=agatha+christie&oq=aga&aqs=chrome.0.69i59j46i433j69i57j0i433j46i433j46i131i433j0i433j46i433j46i175i199i433j46i433.1205j0j7&sourceid=chrome&ie=UTF-8"
+                    target="_blank"><img src="./Agatha-christie.jpg"></a>
+                <figcaption><a
+                        href="https://www.google.com/search?safe=strict&hl=en&q=The+A.B.C.+Murders&stick=H4sIAAAAAAAAAONgFuLVT9c3NEyyMMvJKy5PUuLUz9U3MMy2sEzRkstOttJPys_P1s_JLEktSiyqjC9OLcpMLbYCCRY_YqzkFnj5456wVMGkNSevMWZxEdAg5MLF5ppXkllSKaTCJSiFarEGgxQ_F6qQkQhUIKugML6yKqdM4OyvaYxWTBpMPItYhUIyUhUc9Zz0nPUUfEuLUlKLiiewMQIA_ar989AAAAA&sa=X&ved=2ahUKEwi1l5iLhZLwAhXjct8KHbuDCeoQ-BYwOHoECAEQVg&biw=1280&bih=610"
+                        target="_blank">Agatha Christie</a></figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <a href="https://www.google.com/search?q=neil+gaiman&safe=strict&bih=610&biw=1280&hl=en&ei=DoiBYI66Lsua_QaoirnYCg&gs_ssp=eJzj4tDP1Tcwzco1N2D04s5LzcxRSE_MzE3MAwBNQAcM&oq=neil&gs_lcp=Cgdnd3Mtd2l6EAEYADIKCC4QsQMQQxCTAjIHCAAQsQMQQzIECC4QQzIECC4QQzIHCC4QsQMQQzIHCC4QsQMQQzICCC4yCAguELEDEIMBMgUILhCxAzIFCC4QsQM6BwguEEMQkwI6BAgAEEM6CAgAELEDEIMBOgIIADoFCAAQsQM6CwguELEDEJECEJMCOgUILhCRAjoLCC4QsQMQxwEQrwE6CAguEJECEJMCOggILhDHARCvAToOCC4QsQMQgwEQxwEQowI6CwguELEDEMcBEKMCOgoIABCxAxCDARBDOg0ILhCxAxDHARCjAhBDUJWHDVjBvw1gh9ANaAdwAngAgAHIAYgB-w6SAQYxLjExLjGYAQCgAQGqAQdnd3Mtd2l6sAEAwAEB&sclient=gws-wiz"
+                    target="_blank"><img src="./neil_gaiman.jpg"></a>
+                <figcaption><a
+                        href="https://www.google.com/search?q=the+graveyard+book&safe=strict&bih=610&biw=1280&hl=en&ei=komBYI-hDvKk_QbStrb4DA&gs_ssp=eJzj4tLP1TcwKiwuSSszYPQSKslIVUgvSixLrUwsSlFIys_PBgCqYAr0&oq=the+&gs_lcp=Cgdnd3Mtd2l6EAEYADIHCC4QQxCTAjIECC4QQzIECC4QQzIECC4QQzIECC4QQzIECC4QQzIECAAQQzIECC4QQzIECC4QQzIECC4QQzoKCAAQsQMQsAMQQzoHCAAQsAMQQzoKCC4QsAMQyAMQQzoICC4QsQMQkwI6BwgAELEDEEM6AgguOggILhCxAxCDAToICAAQsQMQgwE6BwguELEDEEM6CwguELEDEMcBEKMCOgUIABCxA0oFCDgSATFQnh9YwS5g3jZoAnAAeAWAAYUCiAG6DpIBBTAuOC4zmAEAoAEBqgEHZ3dzLXdperABAMgBDcABAQ&sclient=gws-wiz"
+                        target="_blank">Neil Gaiman</a></figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TdItywuL08zYPTiSUxJzFVIz0wpzyypAgBtwwiz&q=adam+gidwitz&oq=adam+gi&aqs=chrome.2.69i57j46i433j46j0i131i433j46i433j0j46l2j0.17395j0j7&sourceid=chrome&ie=UTF-8"
+                    target="_blank"><img src="./adam gidwitz.jpg"></a>
+                <figcaption><a
+                        href="https://www.google.com/search?q=adam+gidwitz+the+inquisitor%27s+tale&source=lmns&bih=610&biw=1280&safe=active&hl=en&sa=X&ved=2ahUKEwiR3am-hpLwAhXLdd8KHfWMA9cQ_AUoAHoECAEQAA"
+                        target="_blank">Adam Gidwitz</a></figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <a href="https://www.google.com/search?q=randy+pausch&oq=ran&aqs=chrome.1.69i59l2j69i57j0i433j46i199i291i433j0i433j69i60l2.3950j0j7&sourceid=chrome&ie=UTF-8"
+                    target="_blank"><img src="./randyPausch.jpg"></a>
+                <figcaption><a
+                        href="https://www.google.com/search?q=the+last+lecture&oq=the+last+le&aqs=chrome.0.0i355i433j46i433l2j69i57j46j69i60l3.8041j0j7&sourceid=chrome&ie=UTF-8"
+                        target="_blank"> Dr Randy Pausch</a></figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TfIKrE0SDM1YPTiKS5JLchIzVPIzsxLBwBnFAg5&q=stephen+king&oq=stephen&aqs=chrome.4.69i57j46i131i433l3j46i433l4j0i131i433j0i271.3896j0j7&sourceid=chrome&ie=UTF-8"
+                    target="_blank"><img src="stephen king.jpg" alt="Stephen King"></a>
+                <figcaption><a
+                        href="https://www.google.com/search?safe=strict&q=It+(novel)&stick=H4sIAAAAAAAAAGVTS2vUUBidjHY6va1lJlUps5BxoDAWZZJMkiZdOIK4KLSItS5EJDbPO3ncmxeZTJf-AhHpUtGVCxfiRnChrTvrY6HQjSDVnRvdCBY3ddrmZgR3557v5Dvn--5NeaQx1vJaDItSVeHoKDZ8aKC600VWXcXYibaoYZ3gQNaTLaq8j-e0JMxori1ETEZDZPlbFNiHlqVyGiQaz-PXCOYk0Sd63hpIjrWsFstCPhE9LpAymewGUUBqlukqbVNNst62k8pBSmLZaqIToc2wUhCEcibsmZEc2ZmwbSuhmBvbXA57MIdQzb6Uw56TBtmBn4ut_kA_fuDX5n3ouFmJC2KHZUiJSTWZGw4XkmFEHpkOyaiJSbwm-2QfoiC3-QzzouSL-c4QI-St0oTQaTjH5Lejs3wuQXGWSXF52Q6G1rY-XDebw0Qmpqooku6QEXWUS7z86mEg9Eh-U4CuBHteVpOg5xHMCiLPkXVzmuzmrVyd0LKmEzc2MX01H9eHwTdqszhe-b77Zar2vHj3yZtt6mkRVBYxjgy3v2y4q7Ghr2D6PChdQnE37tOnwGTt8EnEMmMKzUJtAvxz5o6Dw8yO6GhQl_zKg511inbB-FUjXsFLWO-affomfQOMLRmeaoTRZZOeB-Aidl1Di7sY0WfBiVq1peVE6-D3GBhNgf_pxuTywTBqrGjtDao4X2wWG4hTXnxc_1C6Xk3e7e2du7J8oXZmlgajC9Ei1lbd6ufdh52Z5o_O7BQor6ymGGGvX712Em3ef_u10zg99v4edQv_-tmpNtd-7808m96YPlIvNAvsp-3RnZLy59VsYeB0--Xj16WjZapSmHg0AhbiehPhxHDP3ClRfwFKxOco7AMAAA&sa=X&ved=2ahUKEwiJqf3YxY_wAhWtVN8KHfSfDlgQ-BYwKnoECAEQMg&biw=1280&bih=610&dpr=2.5"
+                        target="_blank">Stephen King</a></figcaption>
+            </figure>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

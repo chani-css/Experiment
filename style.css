@@ -1,0 +1,33 @@
+html{
+    background-color: #30D5C8;
+    }
+    
+    h1{
+      color: blue;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      font-size: 28px;
+    }
+    
+    h2{
+      color: blue;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 28px;
+    }
+    a{
+        text-decoration: none;
+    }
+    td{
+        list-style-type: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    a:visited{
+      color:blue;
+    }
+    img{
+        width: 150px;
+        height: auto;
+    }
