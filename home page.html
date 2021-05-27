@@ -26,14 +26,14 @@
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             font-size: 35px;
-            -webkit-text-stroke: 1.5px snow;
+            -webkit-text-stroke: 1.5px #504f54;
         }
 
         h2 {
             color: #000080;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 33px;
-            -webkit-text-stroke: 1.5px snow;
+            -webkit-text-stroke: 1.5px #504f54;
         }
 
         a:link {
@@ -43,7 +43,7 @@
             font-size: 25px;
             margin-left: 20px;
             background-image: none;
-            -webkit-text-stroke: 1.5px snow;
+            -webkit-text-stroke: 1.5px #504f54;
         }
 
         /* a:hover{
@@ -53,7 +53,7 @@
 
         a:visited {
             color: #000080;
-            -webkit-text-stroke: 1.5px snow;
+            -webkit-text-stroke: 1.5px #504f54;
         }
 
         img {
@@ -61,16 +61,16 @@
             height: auto;
         }
 
-        figcaption {
+        imgfigcap {
             padding: 10px;
             font-size: 28px;
             color: #000080;
-            -webkit-text-stroke: 1px snow;
+            -webkit-text-stroke: 1px #504f54;
         }
 
         ul {
             color: #000080;
-            -webkit-text-stroke: 1px snow;
+            -webkit-text-stroke: 1px #504f54;
             font-size: 30px;
             list-style: none;
             font-family: Arial, Helvetica, sans-serif;
@@ -92,9 +92,13 @@
         p {
             font-size: 30px;
             color: #000080;
-            -webkit-text-stroke: 1px snow;
+            -webkit-text-stroke: 1px #504f54 ;
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
+        }
+        figcap {
+            text-align: center;
+            -webkit-text-stroke: 1px #504f54;
         }
     </style>
 </head>
@@ -116,8 +120,9 @@
     <div class="grid-container">
 
         <body>
-
-            <p>
+            <div>
+                <figure>
+               <p>
                 Hello! Welcome to my website. There is plenty for you to explore - musicians, authors,
                 quotes, actors, and some of my best artwork!
                 On all pages except 4, click on any name OR picture, and see where it takes you! Here's a 
@@ -126,9 +131,15 @@
                 <!-- Oh, and one more thing, I didn't put favorite teachers, because we can't have one teacher 
                 finding out their a favorite and someone else is not, or the other way around. So, you'll never
                 know who my favorite teachers are!  -->
-                Enjoy! 💗💗💗💗
+                Enjoy! 
             </p>
-
+            <figcaption class = "figcap">
+            <p1>
+                💗💗💗💗
+            </p1>
+            </figcaption>
+            </figure>
+            </div>
         </body>
 
 </html>
