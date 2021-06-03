@@ -1,33 +1,210 @@
-html{
-    background-color: #30D5C8;
-    }
-    
-    h1{
-      color: blue;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      text-align: center;
-      font-size: 28px;
-    }
-    
-    h2{
-      color: blue;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: 28px;
-    }
-    a{
-        text-decoration: none;
-    }
-    td{
-        list-style-type: none;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
-        margin-left: 20px;
-    }
-    
-    a:visited{
-      color:blue;
-    }
-    img{
-        width: 150px;
-        height: auto;
-    }
+body {
+  background-color: slategrey;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  /* background-color: #2196F3;   */
+}
+
+.grid-container>div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  /* padding-top: 10px; */
+  font-size: 30px;
+}
+
+h1 {
+  color: #000080;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  -webkit-text-stroke: 1.5px #504f54;
+}
+
+h2 {
+  color: #000080;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  -webkit-text-stroke: 1.5px #504f54;
+}
+
+a:link {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+  background-image: none;
+  -webkit-text-stroke: 1.5px #504f54;
+}
+
+/* a:hover{
+box-shadow: 10px 10px 10px 10px;  
+background-color: slategrey;
+} */
+a:active{
+  color: #000080;
+  -webkit-text-stroke: 1.5px #504f54;
+}
+a:visited {
+  color: #000080;
+  -webkit-text-stroke: 1.5px #504f54;
+}
+
+img {
+  width: 125px;
+  height: auto;
+}
+
+figcaption {
+  padding: 10px;
+  font-size: 28px;
+  color: #000080;
+  -webkit-text-stroke: 1px #504f54;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  color: #000080;
+  -webkit-text-stroke: 1px #504f54;
+  font-size: 25px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .legend {
+  /* padding-top: 17px; */
+/* transform: scale(1.25); */
+/* } */
+
+/* .item1 {
+grid-column-start: 1;
+grid-column-end: 3;
+} */
+li {
+  display: inline;
+}
+body {
+  background-color: slategrey;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  /* background-color: #2196F3;   */
+}
+
+.grid-container>div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  /* padding-top: 10px; */
+  font-size: 30px;
+}
+
+h1 {
+  color: #000080;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  -webkit-text-stroke: 1.5px #504f54;
+}
+
+h2 {
+  color: #000080;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  -webkit-text-stroke: 1.5px #504f54;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+  background-image: none;
+  -webkit-text-stroke: 1.5px #504f54;
+}
+
+/* a:hover{
+    box-shadow: 10px 10px 10px 10px;  
+    background-color: slategrey;
+  } */
+
+a:visited {
+  color: #000080;
+  -webkit-text-stroke: 1.5px #504f54;
+}
+a:hover{
+  background-color: lightsteelblue;
+}
+
+img {
+  width: 125px;
+  height: auto;
+}
+
+imgfigcap {
+  padding: 10px;
+  font-size: 28px;
+  color: #000080;
+  -webkit-text-stroke: 1px #504f54;
+}
+
+ul {
+  color: #000080;
+  -webkit-text-stroke: 1px #504f54;
+  font-size: 30px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+/* .legend {
+      /* padding-top: 17px; */
+/* transform: scale(1.25); */
+/* } */
+
+/* .item1 {
+grid-column-start: 1;
+grid-column-end: 3;
+} */
+li {
+  display: inline;
+  
+}
+
+p {
+  font-size: 30px;
+  color: #000080;
+  -webkit-text-stroke: 1px #504f54 ;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+figcap {
+  text-align: center;
+  -webkit-text-stroke: 1px #504f54;
+}
+p1 {
+  font-size: 30px;
+  text-align: center;
+  -webkit-text-stroke: #ffff;
+}
+
+.profpic {
+  position: absolute;
+  bottom: 10px;
+  margin: 0.5px;
+  padding: 0px;
+}
+
+.caption {
+  margin: 0.5px;
+  padding: 0px;
+}
