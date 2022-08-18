@@ -1,5 +1,5 @@
 body {
-  background-color: slategrey;
+  background-color: #B8B5FF;
 }
 
 .grid-container {
@@ -17,14 +17,14 @@ body {
 }
 
 h1 {
-  color: #0022EE;
+  color: #7868E6;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 35px;
 }
 
 h2 {
-  color: #0022EE;
+  color: #7868E6;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 33px;
 }
@@ -43,10 +43,10 @@ box-shadow: 10px 10px 10px 10px;
 background-color: slategrey;
 } */
 a:active{
-  color: #0022EE;
+  color: #7868E6;
 }
 a:visited {
-  color: #000080;
+  color: #7868E6;
 }
 
 img {
@@ -57,12 +57,12 @@ img {
 figcaption {
   padding: 10px;
   font-size: 28px;
-  color: #0022EE;
+  color: #7868E6;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
-  color: #0022EE;
+  color: #7868E6;
   font-size: 25px;
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -81,7 +81,7 @@ li {
   display: inline;
 }
 body {
-  background-color: slategrey;
+  background-color: #B8B5FF;
 }
 
 .grid-container {
@@ -99,14 +99,14 @@ body {
 }
 
 h1 {
-  color: #0022EE;
+  color: #7868E6;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 35px;
 }
 
 h2 {
-  color: #0022EE;
+  color: #7868E6;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 33px;
   font-weight: bold;
@@ -127,10 +127,10 @@ a:link {
   } */
 
 a:visited {
-  color: #0022EE;
+  color: #7868E6;
 }
 a:hover{
-  background-color: lightsteelblue;
+  background-color: #E4FBFF;
 }
 
 img {
@@ -141,11 +141,11 @@ img {
 imgfigcap {
   padding: 10px;
   font-size: 28px;
-  color: #0022EE;
+  color: #7868E6;
 }
 
 ul {
-  color: #0022EE;
+  color: #7868E6;
   font-size: 30px;
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -169,7 +169,7 @@ li {
 
 p {
   font-size: 30px;
-  color: #0022EE;
+  color: #7868E6;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
@@ -179,7 +179,6 @@ figcap {
 p1 {
   font-size: 30px;
   text-align: center;
-  -webkit-text-stroke: #ffff;
 }
 
 .profpic {
