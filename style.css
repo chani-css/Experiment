@@ -17,18 +17,16 @@ body {
 }
 
 h1 {
-  color: #000080;
+  color: #0022EE;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 35px;
-  -webkit-text-stroke: 1.5px #504f54;
 }
 
 h2 {
-  color: #000080;
+  color: #0022EE;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 33px;
-  -webkit-text-stroke: 1.5px #504f54;
 }
 
 a:link {
@@ -38,7 +36,6 @@ a:link {
   font-size: 25px;
   margin-left: 20px;
   background-image: none;
-  -webkit-text-stroke: 1.5px #504f54;
 }
 
 /* a:hover{
@@ -46,12 +43,10 @@ box-shadow: 10px 10px 10px 10px;
 background-color: slategrey;
 } */
 a:active{
-  color: #000080;
-  -webkit-text-stroke: 1.5px #504f54;
+  color: #0022EE;
 }
 a:visited {
   color: #000080;
-  -webkit-text-stroke: 1.5px #504f54;
 }
 
 img {
@@ -62,14 +57,12 @@ img {
 figcaption {
   padding: 10px;
   font-size: 28px;
-  color: #000080;
-  -webkit-text-stroke: 1px #504f54;
+  color: #0022EE;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
-  color: #000080;
-  -webkit-text-stroke: 1px #504f54;
+  color: #0022EE;
   font-size: 25px;
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -106,18 +99,16 @@ body {
 }
 
 h1 {
-  color: #000080;
+  color: #0022EE;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 35px;
-  -webkit-text-stroke: 1.5px #504f54;
 }
 
 h2 {
-  color: #000080;
+  color: #0022EE;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 33px;
-  -webkit-text-stroke: 1.5px #504f54;
   font-weight: bold;
 }
 
@@ -128,7 +119,6 @@ a:link {
   font-size: 25px;
   margin-left: 20px;
   background-image: none;
-  -webkit-text-stroke: 1.5px #504f54;
 }
 
 /* a:hover{
@@ -137,8 +127,7 @@ a:link {
   } */
 
 a:visited {
-  color: #000080;
-  -webkit-text-stroke: 1.5px #504f54;
+  color: #0022EE;
 }
 a:hover{
   background-color: lightsteelblue;
@@ -152,13 +141,11 @@ img {
 imgfigcap {
   padding: 10px;
   font-size: 28px;
-  color: #000080;
-  -webkit-text-stroke: 1px #504f54;
+  color: #0022EE;
 }
 
 ul {
-  color: #000080;
-  -webkit-text-stroke: 1px #504f54;
+  color: #0022EE;
   font-size: 30px;
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -182,14 +169,12 @@ li {
 
 p {
   font-size: 30px;
-  color: #000080;
-  -webkit-text-stroke: 1px #504f54 ;
+  color: #0022EE;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 figcap {
   text-align: center;
-  -webkit-text-stroke: 1px #504f54;
 }
 p1 {
   font-size: 30px;
